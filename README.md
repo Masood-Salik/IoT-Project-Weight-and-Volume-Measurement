@@ -4,7 +4,9 @@ This page will show weekly update in description.
 
 02/02/23 -20/02/23 : Literature review and finalize all the tools and devices that will be utilized in the proposed system.
 
+                     S11 Measurement of NB-IoT Anteena
                      Simulation of existing antenna design of the NB-DEVKIT board 
+                     
 
 17/02/23           : Collected DEVIO NB-DEVKIT I from Prof. Suramate
 
