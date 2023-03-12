@@ -21,3 +21,6 @@ https://kmutnbacth-my.sharepoint.com/:p:/r/personal/s6509106860081_kmutnb_ac_th/
                      Tested differnt codes given by AIS to send and recieve data via Magellan_SIM7020E Link (https://github.com/AIS-DeviceInnovation/Magellan_SIM7020E)
                      Sending data using UDPSIM7020E (Fail: Unable to recive data on NodeRed)
                      
+13/03/23           : Simulation of Dipole Anteena
+                
+                     
