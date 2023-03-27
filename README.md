@@ -43,6 +43,14 @@ This page will show weekly update in description.
                     </details>
                    
 
-                     
+March 24, 2023
+I am pleased to report the following progress on my project tasks over the past week:
+Embedded Software Design:
+• Last week, I encountered an issue where I was unable to send data to Node-RED. To resolve this issue, I purchased a server with an IPv4 address from the Digital Ocean website. I deployed an Ubuntu droplet on Digital Ocean and am running Node-RED on it. I am now successfully able to receive data on Node-RED at a speed of 1 second. However, I am currently unable to send data from Node-RED to the board.
+ 
+Antenna Design and Simulation:
+• I have successfully designed and simulated a meandering antenna, which has resulted in a size reduction.
+  
+             
  
                      
