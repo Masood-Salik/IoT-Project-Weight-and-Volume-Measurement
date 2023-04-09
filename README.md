@@ -1,47 +1,63 @@
 <h1>IoT based Weight and Volume Measurement for Healthcare​</h1>
 
-This page will show weekly update in description. 
+<p>This page will show weekly update in description.</p>
 
-02/02/23 -20/02/23 : Literature review and finalize all the tools and devices that will be utilized in the proposed system.
+<h3>17/02/23 :</h3>
+<ul>
+  <li>Collected DEVIO NB-DEVKIT I from Prof. Suramate</li>
+</ul>
 
-                     S11 Measurement of NB-IoT Anteena
-                     Simulation of existing antenna design of the NB-DEVKIT board 
-                     
+<h3>23/02/23 :</h3>
+<ul>
+  <li>Collected required hardware from Prof. Chayakorn</li>
+</ul>
 
-17/02/23           : Collected DEVIO NB-DEVKIT I from Prof. Suramate
+<h2> February 02-20, 2023 </h2>
+<ul>
+  <li>Literature review and finalize all the tools and devices that will be utilized in the proposed system.</li>
+  <li>S11 Measurement of NB-IoT Antenna</li>
+  <li>Simulation of existing antenna design of the NB-DEVKIT board</li>
+</ul>
 
-23/02/23           : Collected requried hardware from Prof. Chayakorn
 
-27/02/23           : Project proposal presentation this week. You may find it at: 
-[Proposal Presentation](https://kmutnbacth-my.sharepoint.com/:p:/r/personal/s6509106860081_kmutnb_ac_th/Documents/IoT_ProposalV1_annotatedV1%20(1).pptx?d=w3adcc676a5a64be78801dab719e66fe9&csf=1&web=1&e=OUf46D)
+<h2> February 27, 2023 </h2>
+<ul>
+  <li>Project proposal presentation this week. You may find it at: 
+    <a href="https://kmutnbacth-my.sharepoint.com/:p:/r/personal/s6509106860081_kmutnb_ac_th/Documents/IoT_ProposalV1_annotatedV1%20(1).pptx?d=w3adcc676a5a64be78801dab719e66fe9&csf=1&web=1&e=OUf46D">Proposal Presentation</a></li>
+</ul>
 
-06/03/23           : Testing NB-IoT Connectivity with Magellan 
-                     
-                     Sending Packet from Board and Ploting it on Dashboard (Success)
-                     Sending data using UDPSIM7020E (Fail: Unable to recive data on NodeRed)                     
-   
-                     Tested differnt codes given by AIS to send and recieve data via Magellan_SIM7020E @ https://github.com/AIS-DeviceInnovation/Magellan_SIM7020E
-                     
-                     
-12/03/23           : Following Tasks were performed
-                    <details open>
-                        <summary>Antenna Development Progress</summary>
-                            <ul>
-                                <li>Simulation of Dipole Antenna</li>
-                                <li>Antenna Miniturization using Meandring to be started</li>
-                            </ul>
-                    </details>
-                    <details open>
-                        <summary>Hardware Testing</summary>
-                            <ul>
-                                <li>Tested the load cell: attempted callibration</li>                   
-                                 ![image](https://user-images.githubusercontent.com/80390361/224552007-baa1172f-74fd-4875-b554-551f38ac1b64.png)                      
-                                  Observations: Need a platform for accurate callibration for the load cell
-                                <li>Tested I2C LCD</li>
-                                 ![image](https://user-images.githubusercontent.com/80390361/224552322-bc39535c-76ac-4964-9007-f272c49f1699.png)
-                            </ul>
-                    </details>
-                   
+
+<h2> March 03, 2023 </h2>
+<ul>
+  <li>Testing NB-IoT Connectivity with Magellan</li>
+  <ul>
+    <li>Sending Packet from Board and Plotting it on Dashboard (Success)</li>
+    <li>Sending data using UDPSIM7020E (Fail: Unable to receive data on NodeRed)</li>
+    <li>Tested different codes given by AIS to send and receive data via Magellan_SIM7020E at <a href="https://github.com/AIS-DeviceInnovation/Magellan_SIM7020E">https://github.com/AIS-DeviceInnovation/Magellan_SIM7020E</a></li>
+  </ul>
+</ul>
+
+
+<h2> March 12, 2023 </h2>
+<ul>
+  <li>Following Tasks were performed</li>
+  <details open>
+    <summary>Antenna Development Progress</summary>
+    <ul>
+      <li>Simulation of Dipole Antenna</li>
+      <li>Antenna Miniaturization using Meandering to be started</li>
+    </ul>
+  </details>
+  <details open>
+    <summary>Hardware Testing</summary>
+    <ul>
+      <li>Tested the load cell: attempted calibration</li>                   
+      <img src="https://user-images.githubusercontent.com/80390361/224552007-baa1172f-74fd-4875-b554-551f38ac1b64.png" alt="load cell observation">
+      <li>Tested I2C LCD</li>
+      <img src="https://user-images.githubusercontent.com/80390361/224552322-bc39535c-76ac-4964-9007-f272c49f1699.png" alt="I2C LCD test">
+    </ul>
+  </details>
+</ul>
 
 <h2>March 24, 2023</h2>
 <p>Embedded Software Design:</p>
