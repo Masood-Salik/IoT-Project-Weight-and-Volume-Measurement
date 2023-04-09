@@ -1,6 +1,22 @@
 <h1>IoT based Weight and Volume Measurement for Healthcare​</h1>
 
-<p>This page will show weekly update in description.</p>
+<h2>Introduction</h2>
+    <p>The following report describes the potential applications of an IoT-based weight and volume measurement device for healthcare. The report discusses the motivation behind the development of such a device, its potential uses, and the benefits it offers over conventional weight and volume measurement methods. Furthermore, the report presents an example layout of the dashboard for monitoring and reporting patient consumption. the weekly update is also shown in the end. </p>
+
+<h2>Motivation</h2>
+<p>Conventional weight and volume measurement methods are cumbersome for both patients and caregivers. These methods are prone to errors, time-consuming, and difficult to analyze large amounts of data. The record is usually kept in diaries, and if you lose it, all data is lost. The development of an IoT-based weight and volume measurement device can overcome these challenges and provide an efficient and accurate way to manage patient hydration levels.</p>
+
+<h2>Potential Uses</h2>
+<p>The IoT-based weight and volume measurement device has a wide range of potential uses in healthcare, research, and other fields. The primary use of such a device is monitoring and tracking the water intake of patients, particularly those with conditions that require them to maintain a specific hydration level. For example, the device could monitor the water intake of patients with kidney disease, heart failure, or diabetes. This device could also be used in elderly care centers, long-term care facilities, and hospitals to track the water intake of elderly patients and ensure they receive the appropriate amount of hydration. Furthermore, the device has potential applications in research and clinical trials, providing accurate and reliable data on hydration levels that can be used to study the effects of hydration on health outcomes. Moreover, this device can be used in the sports and fitness industry to monitor the water intake of athletes and help them maintain optimal hydration levels during training and competitions.</p>
+
+<h2>Benefits</h2>
+<p>The IoT-based weight and volume measurement device offers several benefits over conventional weight and volume measurement methods. By automating the data collection process, our device can reduce the burden on patients and caregivers, minimize human error, and streamline record-keeping. The device also provides real-time data display, patient information, alerts and notifications, historical data, and settings and controls, making it easier for caretakers and medical staff to monitor and manage patient hydration levels.</p>
+
+<h2>Dashboard Layout</h2>
+<p>The dashboard layout of the IoT-based weight and volume measurement device should be user-friendly and easy to navigate, with clear and intuitive controls. The dashboard layout should be optimized for the specific needs of the target audience, in this case, caretakers, and medical staff. An example layout of the dashboard includes real-time data display, patient information, alerts and notifications, historical data, and settings and controls. The real-time data display shows weight, volume, and temperature of the water inside the glass in a clear and easy-to-read format, such as a graph or chart. The patient information section displays the patient's name, age, and medical history. The alerts and notifications section displays alerts and notifications related to the patient's water intake. The historical data section displays a graph or chart showing the patient's water intake over time. Finally, the settings and controls section allows caretakers and medical staff to adjust the device's sensitivity, set alarms, or change the units of measurement. The dashboard also has a feature that allows remote monitoring of the device, which could be useful for caretakers that are not physically present with the patient.</p>
+
+
+<h1>Weekly Updates</h1>
 
 <h3>17/02/23 :</h3>
 <ul>
