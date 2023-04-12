@@ -90,6 +90,14 @@
 <ul>
   <li>Last week, a significant milestone was achieved as we combined the hardware and software. We were able to send the weight by pressing a button. However, after connecting the load sensor, we encountered an issue where the data was not being sent to the server. We debugged the issue and found that the SPI pin used for the load sensor was actually the NB-IoT reset pin. This caused our device to reset when we tried to read weight. We updated the payload message and incorporated the date and time variable in the JSON frame. We were successfully able to get the current time and date via the NB-IoT board. The JSON data received at the payload was parsed, and a simple GUI was made to display the current values.</li>
 </ul>
+<p>Hardware Integration and Assembly:</p>
+<ul>
+    <li> The LCD has been successfully integrated with the operational system, enabling it to retrieve weight data from the board and transmit it to the Node Red Server. Additionally, the design for the volume sensor was created using InkSpace, and the corresponding schematic was forwarded for fabrication. </li>
+</ul>
+<p>Dashboard Design:</p>
+<ul>
+<li>The Node Red server was established </li>
+</ul>
 <h2>Date: April 10, 2023</h2>
 <p>Embedded Software Design:</p>
 <ul>
