@@ -106,9 +106,13 @@
   <li>We also tested the HC-SR04 ultrasonic sensor and used it to detect the water level in a glass of water. The sensor is working fine, and calibration needs to be done to be used to detect the volume in a glass of water.</li>
 </ul>
 
-
-
- 
-             
- 
-                     
+<h2> April 24, 2023</h2>
+<h3>Embedded Software Design:</h3>
+<ul>
+  <li>Tested the Interdigital Capacitor (IDC) based volume sensor using the LCR Meter and found its intrinsic capacitance to be 26pF. The capacitance value changes from 26pF to 120pF when dipped in water.</li>
+  <li>Made another copper tape capacitor. Found its intrinsic capacitance to be 3pF. The capacitance value changes from 3.2pF to 250pF when dipped in water.</li>
+  <li>Found that when the Esp32 is programmed using Arduino IDE, the resolution of touch sense value is in the range of 0 to 13, which does not enable measuring the volume. However, when programmed using Esp-IDF, the touch resolution is good, and we are able to detect the change in volume as its value changes from 600 to 740 range.</li>
+  <li>Tested the HC-SR04 ultrasonic sensor and used it to detect the water level in a glass of water. The sensor was able to detect the change, but the discrete steps were large to detect small changes in volume.</li>
+  <li>Tested the soil sensor to detect the volume, but the change in value is abrupt, and we are not able to detect the volume accurately.</li>
+</ul>
+\
