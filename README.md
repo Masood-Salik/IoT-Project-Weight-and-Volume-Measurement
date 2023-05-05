@@ -19,6 +19,10 @@
 <h2>Benefits</h2>
 <p>The IoT-based weight and volume measurement device offers several benefits over conventional weight and volume measurement methods. By automating the data collection process, our device can reduce the burden on patients and caregivers, minimize human error, and streamline record-keeping. The device also provides real-time data display, patient information, alerts and notifications, historical data, and settings and controls, making it easier for caretakers and medical staff to monitor and manage patient hydration levels.</p>
 
+<h2>System Block Diagram</h2>
+<p> This is how it work.</p>
+
+
 <h2>Dashboard Layout</h2>
 <p>The dashboard layout of the IoT-based weight and volume measurement device should be user-friendly and easy to navigate, with clear and intuitive controls. The dashboard layout should be optimized for the specific needs of the target audience, in this case, caretakers, and medical staff. An example layout of the dashboard includes real-time data display, patient information, alerts and notifications, historical data, and settings and controls. The real-time data display shows weight, volume, and temperature of the water inside the glass in a clear and easy-to-read format, such as a graph or chart. The patient information section displays the patient's name, age, and medical history. The alerts and notifications section displays alerts and notifications related to the patient's water intake. The historical data section displays a graph or chart showing the patient's water intake over time. Finally, the settings and controls section allows caretakers and medical staff to adjust the device's sensitivity, set alarms, or change the units of measurement. The dashboard also has a feature that allows remote monitoring of the device, which could be useful for caretakers that are not physically present with the patient.</p>
 
