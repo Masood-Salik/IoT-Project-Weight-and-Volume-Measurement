@@ -127,6 +127,13 @@
   <li>Tested the soil sensor to detect the volume, but the change in value is abrupt, and we are not able to detect the volume accurately.</li>
 </ul>
 
+<h2> May 01, 2023</h2>
+<p>The system is finalized. The circuitry is placed inside the box. Some minor adjustments are done to the dashboard. HC-SR04 Ultrasonic sensor is used for the measurement of Volume.</p>
+
+
+</ul>
+
+
 <h1>Supplementary Achievements</h1>
 <ul>
   <li>Antenna Characterization using Nano VNA:
