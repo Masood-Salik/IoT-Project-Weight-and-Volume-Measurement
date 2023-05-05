@@ -107,7 +107,7 @@
 </ul>
 
 <h2> April 24, 2023</h2>
-<h3>Embedded Software Design:</h3>
+<p>Embedded Software Design:</p>
 <ul>
   <li>Tested the Interdigital Capacitor (IDC) based volume sensor using the LCR Meter and found its intrinsic capacitance to be 26pF. The capacitance value changes from 26pF to 120pF when dipped in water.</li>
   <li>Made another copper tape capacitor. Found its intrinsic capacitance to be 3pF. The capacitance value changes from 3.2pF to 250pF when dipped in water.</li>
@@ -115,4 +115,64 @@
   <li>Tested the HC-SR04 ultrasonic sensor and used it to detect the water level in a glass of water. The sensor was able to detect the change, but the discrete steps were large to detect small changes in volume.</li>
   <li>Tested the soil sensor to detect the volume, but the change in value is abrupt, and we are not able to detect the volume accurately.</li>
 </ul>
-\
+
+<h1>Supplementary Achievements</h1>
+<ul>
+  <li>Antenna Characterization using Nano VNA:
+    <ul>
+      <li>Understanding the basics of antenna characterization</li>
+      <li>Introduction to Nano VNA and its working principle</li>
+      <li>Step-by-step guide for measuring S-parameters using Nano VNA</li>
+      <li>Analyzing and interpreting the measurement results</li>
+    </ul>
+  </li>
+  
+  <li>Simulation of IoT Antenna in CST Microwave Studio:
+    <ul>
+      <li>Overview of CST Microwave Studio software</li>
+      <li>Creating a 3D model of an IoT antenna in CST Microwave Studio</li>
+      <li>Simulation setup and configuration</li>
+      <li>Analyzing the simulation results and optimizing the antenna design</li>
+    </ul>
+  </li>
+  
+  <li>ESP8266 with NETPIE2020:
+    <ul>
+      <li>Introduction to ESP8266 and NETPIE2020</li>
+      <li>Connecting ESP8266 to NETPIE2020 platform using MQTT</li>
+      <li>Implementing simple IoT applications using freeboard on NETPIE2020</li>
+    </ul>
+  </li>
+  <li>AT Command for SIM7020E:
+    <ul>
+      <li>Overview of SIM7020E module and its features</li>
+      <li>Understanding AT commands and their syntax</li>
+      <li>Step-by-step guide for sending AT commands to SIM7020E module</li>
+      <li>Examples of common AT commands for SIM7020E</li>
+    </ul>
+  </li>
+  <li>ESP-IDF Basics:
+    <ul>
+      <li>Introduction to ESP-IDF </li>
+      <li>Setting up the development environment for ESP-IDF</li>
+      <li>Understanding the basic concepts of ESP-IDF programming</li>
+      <li>Examples of ESP-IDF projects</li>
+    </ul>
+  </li>
+  <li>TCP Communication using NB-IoT board:
+    <ul>
+      <li>Overview of TCP communication protocol</li>
+      <li>Configuring NB-IoT board for TCP communication</li>
+    </ul>
+  </li>
+  <li>Design, Development, and Testing of Interdigital Capacitor:
+    <ul>
+      <li>Understanding the concept and working principle of interdigital capacitors</li>
+      <li>Designing interdigital capacitors using simulation software</li>
+      <li>Fabrication and testing of interdigital capacitors</li>
+      <li>Analyzing the test results</li>
+    </ul>
+  </li>
+</ul>
+
+
