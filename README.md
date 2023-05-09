@@ -31,11 +31,11 @@ Here is the dashboard of the project!
     <summary>Dashboard</summary>
     <ul>
       <li>Water Intake Record</li>                   
-      <img src="https://github.com/ThiriKayThwe/IoT-Project-Weight-and-Volume-Measurement/blob/main/ss1.png?raw=true" width="400" height="300">
+      <img src="https://github.com/ThiriKayThwe/IoT-Project-Weight-and-Volume-Measurement/blob/main/ss1.png?raw=true">
       <li>Patient and Device Registration</li>
-      <img src="https://github.com/ThiriKayThwe/IoT-Project-Weight-and-Volume-Measurement/blob/main/ss2.png?raw=true" width="400" height="300">
-      <img src="https://github.com/ThiriKayThwe/IoT-Project-Weight-and-Volume-Measurement/blob/main/ss3.png?raw=true" width="400" height="300">
-      <img src="https://github.com/ThiriKayThwe/IoT-Project-Weight-and-Volume-Measurement/blob/main/ss4.png?raw=true" width="400" height="300">    
+      <img src="https://github.com/ThiriKayThwe/IoT-Project-Weight-and-Volume-Measurement/blob/main/ss2.png?raw=true">
+      <img src="https://github.com/ThiriKayThwe/IoT-Project-Weight-and-Volume-Measurement/blob/main/ss3.png?raw=true">
+      <img src="https://github.com/ThiriKayThwe/IoT-Project-Weight-and-Volume-Measurement/blob/main/ss4.png?raw=true">    
     </ul>
   </details>
 
