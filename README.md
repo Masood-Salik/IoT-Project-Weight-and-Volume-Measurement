@@ -105,16 +105,34 @@ Here is the dashboard of the project!
   </details>
 </ul>
 
+
 <h2>March 24, 2023</h2>
 <p>Embedded Software Design:</p>
 <ul>
   <li>Last week, I encountered an issue where I was unable to send data to Node-RED. To resolve this issue, I purchased a server with an IPv4 address from the Digital Ocean website. I deployed an Ubuntu droplet on Digital Ocean and am running Node-RED on it. I am now successfully able to receive data on Node-RED at a speed of 1 second. However, I am currently unable to send data from Node-RED to the board.</li>
 </ul>
+<p>Hardware Integration and Assembly:</p>
+<ul>
+     <li>Made the base for the weight sensor in the lab.</li>
+    <li>Tested the previous load cell and found out that it was not working anymore.</li>
+</ul>
+<p>Dashboard and Server</p>
+<ul>
+     <li>Studied NodeRed tutorials and tried to send email and sms notifications with dummy data .</li>
+</ul>
+
 <h2>Date: March 27, 2023</h2>
 <p>Embedded Software Design:</p>
 <ul>
   <li>Last week, I attempted to establish a connection with the Hivemq public broker using MQTT. I used AT commands via serial hardware to subscribe and publish data to the broker. I then used the AIS-provided MQTT code PUBSUB to connect to Node-RED. However, I encountered an issue where the ESP32 kept restarting instead of connecting with the broker. To resolve this issue, I downgraded the ESP32 core to version 1.06. I am now successfully sending and receiving data using MQTT on Node-RED.</li>
 </ul>
+<p>Dashboard and Server</p>
+<ul>
+     <li>The problem with the email notification when I tried last time was the app password which we have to set up in our google account. Now I have set that up and email notification is working with dummy data.</li>
+     <li>Besides, I tried Line Notification and it is also working now after getting a token from Line Notify API.</li>
+</li>
+</ul>
+
 <h2>Date: April 03, 2023</h2>
 <p>Embedded Software Design:</p>
 <ul>
@@ -124,9 +142,11 @@ Here is the dashboard of the project!
 <ul>
     <li> The LCD has been successfully integrated with the operational system, enabling it to retrieve weight data from the board and transmit it to the Node Red Server. Additionally, the design for the volume sensor was created using InkSpace, and the corresponding schematic was forwarded for fabrication. </li>
 </ul>
-<p>Dashboard Design:</p>
+<p>Dashboard and Server:</p>
 <ul>
 <li>The Node Red server was established </li>
+<li>Store the data in an SQL database and retrieve them to show on the dashboard locally. </li>
+<li>Since we agreed that we will send the data whenever the weight is placed on the sensor, we have to work on getting the actual consumed water from all the data that would be saved on the database. </li>
 </ul>
 <h2>Date: April 10, 2023</h2>
 <p>Embedded Software Design:</p>
@@ -134,6 +154,13 @@ Here is the dashboard of the project!
   <li>We tested the Interdigital Capacitor (IDC) based volume sensor using the the Nyanyan/FastCapacitiveSensor: Fast Capacitive Sensor Library (github.com). The code requires a 10M Ohm resistor connected with IDC sensor, but we tested it with a 2MOhm resistor that we had available. Unfortunately, the test showed that the IDC values were not incrementing with the increasing water level. The sensor was sensitive to detecting whether the electrode was dipped in water or not, but the traces of water on the sensor also affected the values, so the sensor needed to be cleaned again to return to the initial value.</li>
   <li>We also tested the OEM HW-038 Water level Sensor, which worked more or less the same as our sensor, only detecting the presence of water but not helping in detecting the level or volume. Further analysis with an oscilloscope and more testing with different values of resistor are needed to proceed further.</li>
   <li>We also tested the HC-SR04 ultrasonic sensor and used it to detect the water level in a glass of water. The sensor is working fine, and calibration needs to be done to be used to detect the volume in a glass of water.</li>
+</ul>
+<p>Dashboard and Server:</p>
+<ul>
+<li>We can now see the weight measurement and actual water consumption with the gauge and define the threshold for water intake.  </li>
+<li>We can see the daily consumption with the date filter as well. The consumption is correctly calculated in all possible situations. </li>
+<li>What we have to work on from now on is that we have to create a drop-down list for patient selection and show relevant data for each patient and make the bar chart for weekly consumption. </li>
+ <li>Moreover, the database server and node-red have been successfully installed on digital ocean and our project is already uploaded and updated there. Further updates will be integrated on the server. </li>
 </ul>
 
 <h2> April 24, 2023</h2>
@@ -144,6 +171,13 @@ Here is the dashboard of the project!
   <li>Found that when the Esp32 is programmed using Arduino IDE, the resolution of touch sense value is in the range of 0 to 13, which does not enable measuring the volume. However, when programmed using Esp-IDF, the touch resolution is good, and we are able to detect the change in volume as its value changes from 600 to 740 range.</li>
   <li>Tested the HC-SR04 ultrasonic sensor and used it to detect the water level in a glass of water. The sensor was able to detect the change, but the discrete steps were large to detect small changes in volume.</li>
   <li>Tested the soil sensor to detect the volume, but the change in value is abrupt, and we are not able to detect the volume accurately.</li>
+</ul>
+<p>Dashboard and Server:</p>
+<ul>
+<li>We can now see the weight measurement and actual water consumption with the gauge and define the threshold for water intake.  </li>
+<li>We can see the daily consumption with the date filter as well. The consumption is correctly calculated in all possible situations. </li>
+<li>What we have to work on from now on is that we have to create a drop-down list for patient selection and show relevant data for each patient and make the bar chart for weekly consumption. </li>
+ <li>Moreover, the database server and node-red have been successfully installed on digital ocean and our project is already uploaded and updated there. Further updates will be integrated on the server. </li>
 </ul>
 
 <h2> May 01, 2023</h2>
