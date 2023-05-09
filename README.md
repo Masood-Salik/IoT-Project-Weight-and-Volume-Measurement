@@ -79,9 +79,9 @@
     <summary>Hardware Testing</summary>
     <ul>
       <li>Tested the load cell: attempted calibration</li>                   
-      <img src="https://user-images.githubusercontent.com/80390361/224552007-baa1172f-74fd-4875-b554-551f38ac1b64.png" alt="load cell observation">
+      <img src="https://user-images.githubusercontent.com/80390361/224552007-baa1172f-74fd-4875-b554-551f38ac1b64.png" alt="load cell observation"  width="400" height="300">
       <li>Tested I2C LCD</li>
-      <img src="https://user-images.githubusercontent.com/80390361/224552322-bc39535c-76ac-4964-9007-f272c49f1699.png" alt="I2C LCD test">
+      <img src="https://user-images.githubusercontent.com/80390361/224552322-bc39535c-76ac-4964-9007-f272c49f1699.png" alt="I2C LCD test"  width="400" height="300">
     </ul>
   </details>
 </ul>
