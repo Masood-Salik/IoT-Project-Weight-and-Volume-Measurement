@@ -31,14 +31,11 @@ Here is the dashboard of the project!
     <summary>Dashboard</summary>
     <ul>
       <li>Water Intake Record</li>                   
-      <img src="https://drive.google.com/file/d/1adKmvYvP-j1K5kupBJzoyjDM0KO-PbMK/view?usp=share_link"  width="400" height="300">
+      <img src="https://drive.google.com/file/d/1adKmvYvP-j1K5kupBJzoyjDM0KO-PbMK/view?usp=share_link">
       <li>Patient and Device Registration</li>
       <img src="https://drive.google.com/file/d/1o6nSk7ordninnFEtHoJwcvF3tlYMPMt4/view?usp=share_link" width="400" height="300">
-      
       <img src="https://drive.google.com/file/d/19TkeGgUwWK4kzY5PxFldSl6MaZoQzXEE/view?usp=share_link" width="400" height="300">
-      
-      <img src="https://drive.google.com/file/d/1vjGWgVy5RztNODjhZebw2zXIwiBHYUNJ/view?usp=share_link" width="400" height="300">
-        
+      <img src="https://drive.google.com/file/d/1vjGWgVy5RztNODjhZebw2zXIwiBHYUNJ/view?usp=share_link" width="400" height="300">    
     </ul>
   </details>
 
