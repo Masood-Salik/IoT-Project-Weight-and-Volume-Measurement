@@ -126,6 +126,12 @@ Here is the dashboard of the project!
 <ul>
   <li>Last week, I attempted to establish a connection with the Hivemq public broker using MQTT. I used AT commands via serial hardware to subscribe and publish data to the broker. I then used the AIS-provided MQTT code PUBSUB to connect to Node-RED. However, I encountered an issue where the ESP32 kept restarting instead of connecting with the broker. To resolve this issue, I downgraded the ESP32 core to version 1.06. I am now successfully sending and receiving data using MQTT on Node-RED.</li>
 </ul>
+<p>Hardware Integration and Assembly:</p>
+<ul>
+     <li>Obtained a new loac cell from Dr. Chaykorn.</li>
+    <li>Got the load cell to work and callibrated the load cell to take accurate measurements of the weight.</li>
+    <li>Integrated an averaging algorithm so that the weight is stable after some time.</li>
+</ul>
 <p>Dashboard and Server</p>
 <ul>
      <li>The problem with the email notification when I tried last time was the app password which we have to set up in our google account. Now I have set that up and email notification is working with dummy data.</li>
@@ -140,7 +146,8 @@ Here is the dashboard of the project!
 </ul>
 <p>Hardware Integration and Assembly:</p>
 <ul>
-    <li> The LCD has been successfully integrated with the operational system, enabling it to retrieve weight data from the board and transmit it to the Node Red Server. Additionally, the design for the volume sensor was created using InkSpace, and the corresponding schematic was forwarded for fabrication. </li>
+    <li> The LCD has been successfully integrated with the operational system, enabling it to retrieve weight data from the board and transmit it to the Node Red Server. </li>
+<li>Additionally, the design for the volume sensor was created using InkSpace, and the corresponding schematic was forwarded for fabrication. </li>
 </ul>
 <p>Dashboard and Server:</p>
 <ul>
@@ -154,6 +161,14 @@ Here is the dashboard of the project!
   <li>We tested the Interdigital Capacitor (IDC) based volume sensor using the the Nyanyan/FastCapacitiveSensor: Fast Capacitive Sensor Library (github.com). The code requires a 10M Ohm resistor connected with IDC sensor, but we tested it with a 2MOhm resistor that we had available. Unfortunately, the test showed that the IDC values were not incrementing with the increasing water level. The sensor was sensitive to detecting whether the electrode was dipped in water or not, but the traces of water on the sensor also affected the values, so the sensor needed to be cleaned again to return to the initial value.</li>
   <li>We also tested the OEM HW-038 Water level Sensor, which worked more or less the same as our sensor, only detecting the presence of water but not helping in detecting the level or volume. Further analysis with an oscilloscope and more testing with different values of resistor are needed to proceed further.</li>
   <li>We also tested the HC-SR04 ultrasonic sensor and used it to detect the water level in a glass of water. The sensor is working fine, and calibration needs to be done to be used to detect the volume in a glass of water.</li>
+</ul>
+<p>Hardware Integration and Assembly:</p>
+<ul>
+    <li>Added a button for sending the data. </li>
+<li>Removed the need for initial calibration, now the calibration occurs each time the system reboots using a standard weight </li>
+<li>Received the fabricated volume sensor </li>
+<li>Cut an acrylic platform for the sensor and carefully applied the sticker (the sensor was formed as a sticker)</li>
+ <li>Soldered connectors to the sensor and applied glue using a glue gun to make the connections permanent.</li>
 </ul>
 <p>Dashboard and Server:</p>
 <ul>
@@ -172,12 +187,15 @@ Here is the dashboard of the project!
   <li>Tested the HC-SR04 ultrasonic sensor and used it to detect the water level in a glass of water. The sensor was able to detect the change, but the discrete steps were large to detect small changes in volume.</li>
   <li>Tested the soil sensor to detect the volume, but the change in value is abrupt, and we are not able to detect the volume accurately.</li>
 </ul>
+<p>Hardware Integration and Assembly:</p>
+<ul>
+    <li>Made a new sensor and tested it to have the same issues since the old Capacitance sesnor was not working. </li>
+     <li>Attempted to use our DEVIO-NBIOT board with the Espressif IDF and failed. There are some compatibility issues. </li>
+</ul>
 <p>Dashboard and Server:</p>
 <ul>
-<li>We can now see the weight measurement and actual water consumption with the gauge and define the threshold for water intake.  </li>
-<li>We can see the daily consumption with the date filter as well. The consumption is correctly calculated in all possible situations. </li>
-<li>What we have to work on from now on is that we have to create a drop-down list for patient selection and show relevant data for each patient and make the bar chart for weekly consumption. </li>
- <li>Moreover, the database server and node-red have been successfully installed on digital ocean and our project is already uploaded and updated there. Further updates will be integrated on the server. </li>
+<li>As mentioned in last week, all the components on the dashboard are done including the patient filter, patient registration (add, edit, delete).  </li>
+<li>The notification functions are also integrated on the main problem and can successfully send (email and line notification). </li>
 </ul>
 
 <h2> May 01, 2023</h2>
