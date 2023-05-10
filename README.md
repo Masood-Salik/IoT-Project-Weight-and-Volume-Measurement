@@ -25,6 +25,9 @@
 <h2>System Flow Chart</h2>
 <img src="https://github.com/ThiriKayThwe/IoT-Project-Weight-and-Volume-Measurement/blob/main/FlowChart.PNG?raw=true">
 
+<h2>Database Schema</h2>
+<img src="https://github.com/ThiriKayThwe/IoT-Project-Weight-and-Volume-Measurement/blob/main/db_schema.png?raw=true">
+
 <h2>Dashboard Layout</h2>
 <p>The dashboard layout of the IoT-based weight and volume measurement device provides user-friendly and easy to navigate, with clear and intuitive controls. The dashboard layout is optimized for the specific needs of the target customers, in this case, caretakers, and medical staff. An example layout of the dashboard includes real-time data display, patient information, alerts and notifications, historical data, and settings and controls. The real-time data display shows weight and volume of the water inside the glass in a clear and easy-to-read format, such as gauge, tables and chart. The patient information section displays the patient's name, and water consumption history. The patient will be notified regarding the water inake on a daily basis. The historical data section displays a chart showing the patient's water intake over time. Finally, the settings and controls section allows caretakers and medical staff to register the patient and device to the system, set up the water intake threshold. The dashboard also has a feature that allows remote monitoring of the waterintake, which could be useful for caretakers that are not physically present with the patient.</p>
 <img src="https://drive.google.com/file/d/1adKmvYvP-j1K5kupBJzoyjDM0KO-PbMK/view?usp=share_link">
